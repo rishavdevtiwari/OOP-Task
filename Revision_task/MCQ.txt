@@ -1,0 +1,47 @@
+1.
+
+c.string
+
+2.
+
+b.false
+
+3.
+
+c.constructor
+
+4.
+
+b.catch
+
+5.
+
+d.extends
+
+6.
+
+c.protected
+
+7.
+
+a.true
+
+8.
+
+b.The current class object
+
+9.
+
+d.default
+
+10.
+
+a.30Java1020
+
+11.
+
+c.It is used to initialize objects
+
+12.
+
+b.It belongs to the class, not an object

@@ -1,0 +1,35 @@
+2. Describe the concept of polymorphism in Java with suitable examples. Differentiate between
+compile-time and runtime polymorphism.
+
+The concept of polymorphism in Java refers to the method that lets an object take multiple forms, 
+Literally meaning poly morph which deciphers to multiple forms.
+
+Compile time polymorphism refers to method overloading with same method names and different parameters,
+Where the overloading is resolved at compile time.
+Taking an example,
+class Math {
+    int add(int a, int b) { 
+        return a + b; 
+        }
+    double add(double a, double b) { 
+        return a + b; 
+        } 
+}
+Here double add method overloads int add method where they have the same method names and different parameters.
+
+
+Runtime polymorphism refers to method overriding with same method signature in parent and child class,
+Where the overriding is resolved at run time.
+Taking an example,
+class Animal {
+    void sound() { 
+        System.out.println("animal noise"); 
+        }
+}
+class Dog extends Animal {
+    @Override
+    void sound() { 
+        System.out.println("Bark"); 
+        } 
+}
+Here sound() method in child class Dog overrides its parent class having the same method signature but overridden.

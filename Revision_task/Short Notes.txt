@@ -1,0 +1,60 @@
+a) final keyword
+
+Variables/classes/methods in java once created can be modified, re-initialized, and etcetera. 
+The final keyword in Java is used to protect a variable/class/method from further modification.
+Using a final keyword also means that the variable/class/method cannot be overridden in a subclass.
+The usage of final keyword also restricts inheritance.
+for example,
+final int value=50;
+
+b) Getter and Setter Methods
+
+Getter and setter methods in java encapsulate class methods with controller access which also provide security
+restrict uncontrolled access. 
+Getter returns the value of a private field while Setter sets the value of a private field via the concept of encapsulation.
+
+private String name;
+
+public String getName() { 
+    return name; 
+    }
+
+public void setName(String name) {
+     this.name = name; 
+     }
+
+     Here getName and setName are the getter and setter methods.
+
+c) Inheritance
+
+Inheritance is the concept in Java OOP which allows the creation of a child class in such a way that it can inherit
+methods and fields from a superclass, parent class.
+The child class uses the extends keyword to inherit a parent class.
+<child class> extends <parent class>
+class Animal { void eat() { 
+    System.out.print("Eating");
+    } 
+    }
+class Dog extends Animal { 
+    void bark() { 
+        System.out.print("Barking");
+    } 
+    } 
+    Here the Dog class is the child class where Dog inherits eat() too
+
+d) try-catch block
+
+In certain cases, there are codes that we know will be risky and cause exceptions.
+This is the case in which the try block is use which contains the risky code.
+The catch block contains the code block which handles the exceptions if they occur in the try block.
+
+try {
+    int result = 10 / 0;
+} catch (ArithmeticException e) {
+    System.out.println("Error occurs when divided by zero");
+}
+
+Here the try block contains a number divided by 0 which causes an exception, 
+where the catch block handles the exceptional error showing the output letting the user know that an error has occured.
+
+
