@@ -1,0 +1,12 @@
+Qn1)extends
+Qn2)21
+qn3)An instance of a class
+qn4)==
+qn5)Exits the loop entirely
+qn6)void method(int x)
+qn7)3
+qn8)interface InterfaceName{}
+qn9)Heap memory
+qn10)Inheritance
+qn11)Exits the method and optionally returns a value
+qn12)Java105

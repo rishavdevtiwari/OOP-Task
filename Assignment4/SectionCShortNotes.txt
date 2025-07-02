@@ -1,0 +1,30 @@
+a) Object class in Java
+The Object class is the root of all Java classes where every class
+implicitly extends Object providing default methods like toString(),equals() and hashCode().
+
+b)Keywords break vs continue
+break keyword exits the loop or switch any statement immediately.
+continue keyword skips the current iteration and moves to the next loop cycle.
+
+c)Role of access Modifiers
+private access modifiers are accessible within the same class
+default access modifiers are accessible within the same package
+protected access modifiers are accessible within the same package and subclass
+public access modifiers are accessible everywhere
+
+d)Use of instanceof Operator
+This checks if an object is an instance of a class/interface
+
+Animal a=new Dog();
+if(a instanceof Dog){
+    System.out.println("Dog Dog");
+}
+
+e)Difference between class and interface,
+Classes can have concrete methods,
+interfaces only have abstract methods
+Classes support single Inheritance
+Interface support multiple Inheritance
+Classes can have constructors
+Interface cant have constructors.
+

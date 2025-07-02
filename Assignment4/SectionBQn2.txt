@@ -1,0 +1,38 @@
+2. Explain the concept of constructor chaining in Java. Demonstrate it using the this()
+keyword with code.
+
+The concept of constructor chaining in Java is when a constructor is called within
+the same class in another constructor.
+
+This concept is implemented using this() or super()
+
+Example of constructor chaining using this()
+
+public class Person {
+    String name;
+    int age;
+    
+    Person() {
+        this("Unknown"); 
+    }
+    
+    Person(String name) {
+        this(name, 0); 
+    }
+    
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    void display() {
+        System.out.println(name + ", " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person p1 = new Person();
+        p1.display();
+    }
+}

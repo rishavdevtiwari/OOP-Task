@@ -1,0 +1,28 @@
+Encapsulation is an OOP concept that groups data and methods into a single unit
+restricting direct access to data by making the respective fields private.
+
+In java, private fields are used to hide data and public getter/setter methods are used
+to control access.
+
+public class Student {
+    private String name;
+    
+    public String getName() {
+        return name;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.setName("Alice"); 
+        System.out.println(s.getName()); 
+    }
+}
+
+Here even when name variable is private it is accessed via the other class using 
+getter and setter methods in the class Studdent.
