@@ -1,0 +1,42 @@
+2. What is the role of the super keyword in Java? 
+Demonstrate its usage with a code example
+
+The super keyword in java is implemented in child classes 
+to call the parent class constructor accessing the parent class methods/variables when
+overridden in child class.
+
+class Animal{
+    String color="white";
+
+    Animal(){
+        System.out.println("Animal constructor");
+    }
+
+    void eat(){
+        System.out.println("Animal eats");
+    }
+}
+
+class Dog extends Animal{
+    String color="Grey";
+
+    Dog(){
+        super();
+        System.out.println("Dogs constructor");
+    }
+
+    void displayColors(){
+        System.out.println("Dogs color:"color);
+        System.out.println("Animal color: "+super.color);
+    }
+
+    @overridde
+    void eat(){
+        super.eat();
+        System.out.println("Dog eats");
+    }
+}
+
+here when color variable displays the child class's color,
+super.color calls the parent class's color. Where super.eat() method
+calls the parent class's eat method.

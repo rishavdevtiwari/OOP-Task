@@ -1,0 +1,53 @@
+a) Java Class and Object
+
+A class is a blueprint to an object that defines the properties (variables) and behaviours
+of objects. Where a class is a blueprint, an object is an instance of a class created at runtime.
+
+class Car{
+    String model;
+    void start(){
+
+    }
+}
+
+The above is the structure of a class while an object is created by the following syntax;
+
+Car myCar = new Car();
+
+b) Constructor overloading
+
+Constructor overloading refers to having multiple constructors with different parameter lists in the same class.
+It allows object initialization to happen in multiple ways.
+
+class Student{
+    Student(){
+
+    }
+    Student(String name){
+
+    }
+    Student(String name, int age){
+
+    }
+}
+
+Here the Student is the class while There are three constructors with different sets of
+parameters.
+
+c) Access modifiers
+
+In java access modifiers control the visibility of classes, methods and variables with keywords such as
+private which allows access only within the same class.
+default which allows access only within the same package.
+protected which allows access within package and subclasses.
+public which allows access from anywhere.
+
+d)Importance of the main method
+
+The main method is an entry point of any java application which has the common structure or syntax as
+public static void main (String[] args)
+
+public keyword makes it accessible to JVM,
+static method means it can be called without object,
+void means there needs to be nothing returned.
+String[] parameter means an array of parameters can be accepted.

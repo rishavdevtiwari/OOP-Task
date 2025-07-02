@@ -1,12 +1,12 @@
-qn1)
-qn2)
-qn3)
-qn4)
-qn5)
-qn6)
-qn7)
-qn8)
-qn9)
-qn10)
-qn11)
-qn12)
+qn1)int[] arr=new int();
+qn2)2
+qn3)extends
+qn4)public
+qn5)Compilation
+qn6)Defining a method in a subclass that already exists in the parent class
+qn7)8
+qn8)char
+qn9)4
+qn10)Hiding implementation details and exposing only necessary parts
+qn11)implements
+qn12)do-while

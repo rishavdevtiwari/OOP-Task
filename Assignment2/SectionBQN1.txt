@@ -1,0 +1,22 @@
+1. Explain method overloading in Java with examples. How is it different from method
+overriding?
+
+Method overloading in java is a concept or a feature that allows a class to have multiple methods with 
+the same name having different parameters. The methods with same name can have different number of parameters, 
+different types of parameters or different order of parameters.
+
+class MiniCalculator{
+    int add(int a,int b){
+        return a+b;
+    }
+    int add(int a, int b, int c){
+        return a+b+c;
+    }
+    double add(double a,double b){
+        return a+b;
+    }
+}
+
+Here the overloading happens in the same class MiniCalculator
+where a method 'add' has two int variables, three int variables and
+two double variables as parameters.
